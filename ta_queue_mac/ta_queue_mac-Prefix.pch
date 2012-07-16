@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ta_queue_mac' target in the 'ta_queue_mac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

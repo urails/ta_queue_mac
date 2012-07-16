@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FDDD35F15B3EE3400A18850 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDD35E15B3EE3400A18850 /* Cocoa.framework */; };
+		5FDDD36915B3EE3400A18850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDD36715B3EE3400A18850 /* InfoPlist.strings */; };
+		5FDDD36B15B3EE3400A18850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDD36A15B3EE3400A18850 /* main.m */; };
+		5FDDD36F15B3EE3400A18850 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDD36D15B3EE3400A18850 /* Credits.rtf */; };
+		5FDDD37215B3EE3400A18850 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDD37115B3EE3400A18850 /* TAAppDelegate.m */; };
+		5FDDD37515B3EE3400A18850 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDD37315B3EE3400A18850 /* MainMenu.xib */; };
+		5FDDD37D15B3EE3500A18850 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDD37C15B3EE3500A18850 /* SenTestingKit.framework */; };
+		5FDDD37E15B3EE3500A18850 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDDD35E15B3EE3400A18850 /* Cocoa.framework */; };
+		5FDDD38615B3EE3500A18850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDD38415B3EE3500A18850 /* InfoPlist.strings */; };
+		5FDDD38915B3EE3500A18850 /* ta_queue_macTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDD38815B3EE3500A18850 /* ta_queue_macTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FDDD37F15B3EE3500A18850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDDD35115B3EE3400A18850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDDD35915B3EE3400A18850;
+			remoteInfo = ta_queue_mac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FDDD35A15B3EE3400A18850 /* ta_queue_mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ta_queue_mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDDD35E15B3EE3400A18850 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5FDDD36115B3EE3400A18850 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5FDDD36215B3EE3400A18850 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5FDDD36315B3EE3400A18850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FDDD36615B3EE3400A18850 /* ta_queue_mac-Info.plist */ = {isa = PBXFileReference; path = "ta_queue_mac-Info.plist"; sourceTree = "<group>"; };
+		5FDDD36815B3EE3400A18850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FDDD36A15B3EE3400A18850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FDDD36C15B3EE3400A18850 /* ta_queue_mac-Prefix.pch */ = {isa = PBXFileReference; path = "ta_queue_mac-Prefix.pch"; sourceTree = "<group>"; };
+		5FDDD36E15B3EE3400A18850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5FDDD37015B3EE3400A18850 /* TAAppDelegate.h */ = {isa = PBXFileReference; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		5FDDD37115B3EE3400A18850 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		5FDDD37415B3EE3400A18850 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5FDDD37B15B3EE3500A18850 /* ta_queue_macTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ta_queue_macTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDDD37C15B3EE3500A18850 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FDDD38315B3EE3500A18850 /* ta_queue_macTests-Info.plist */ = {isa = PBXFileReference; path = "ta_queue_macTests-Info.plist"; sourceTree = "<group>"; };
+		5FDDD38515B3EE3500A18850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FDDD38715B3EE3500A18850 /* ta_queue_macTests.h */ = {isa = PBXFileReference; path = ta_queue_macTests.h; sourceTree = "<group>"; };
+		5FDDD38815B3EE3500A18850 /* ta_queue_macTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ta_queue_macTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDDD35715B3EE3400A18850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD35F15B3EE3400A18850 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDDD37715B3EE3500A18850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD37D15B3EE3500A18850 /* SenTestingKit.framework in Frameworks */,
+				5FDDD37E15B3EE3500A18850 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDDD34F15B3EE3400A18850 = {
+			isa = PBXGroup;
+			children = (
+				5FDDD36415B3EE3400A18850 /* ta_queue_mac */,
+				5FDDD38115B3EE3500A18850 /* ta_queue_macTests */,
+				5FDDD35D15B3EE3400A18850 /* Frameworks */,
+				5FDDD35B15B3EE3400A18850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDDD35B15B3EE3400A18850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD35A15B3EE3400A18850 /* ta_queue_mac.app */,
+				5FDDD37B15B3EE3500A18850 /* ta_queue_macTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDDD35D15B3EE3400A18850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD35E15B3EE3400A18850 /* Cocoa.framework */,
+				5FDDD37C15B3EE3500A18850 /* SenTestingKit.framework */,
+				5FDDD36015B3EE3400A18850 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FDDD36015B3EE3400A18850 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD36115B3EE3400A18850 /* AppKit.framework */,
+				5FDDD36215B3EE3400A18850 /* CoreData.framework */,
+				5FDDD36315B3EE3400A18850 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5FDDD36415B3EE3400A18850 /* ta_queue_mac */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD37015B3EE3400A18850 /* TAAppDelegate.h */,
+				5FDDD37115B3EE3400A18850 /* TAAppDelegate.m */,
+				5FDDD37315B3EE3400A18850 /* MainMenu.xib */,
+				5FDDD36515B3EE3400A18850 /* Supporting Files */,
+			);
+			path = ta_queue_mac;
+			sourceTree = "<group>";
+		};
+		5FDDD36515B3EE3400A18850 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD36615B3EE3400A18850 /* ta_queue_mac-Info.plist */,
+				5FDDD36715B3EE3400A18850 /* InfoPlist.strings */,
+				5FDDD36A15B3EE3400A18850 /* main.m */,
+				5FDDD36C15B3EE3400A18850 /* ta_queue_mac-Prefix.pch */,
+				5FDDD36D15B3EE3400A18850 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FDDD38115B3EE3500A18850 /* ta_queue_macTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD38715B3EE3500A18850 /* ta_queue_macTests.h */,
+				5FDDD38815B3EE3500A18850 /* ta_queue_macTests.m */,
+				5FDDD38215B3EE3500A18850 /* Supporting Files */,
+			);
+			path = ta_queue_macTests;
+			sourceTree = "<group>";
+		};
+		5FDDD38215B3EE3500A18850 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDD38315B3EE3500A18850 /* ta_queue_macTests-Info.plist */,
+				5FDDD38415B3EE3500A18850 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDDD35915B3EE3400A18850 /* ta_queue_mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDDD38C15B3EE3500A18850 /* Build configuration list for PBXNativeTarget "ta_queue_mac" */;
+			buildPhases = (
+				5FDDD35615B3EE3400A18850 /* Sources */,
+				5FDDD35715B3EE3400A18850 /* Frameworks */,
+				5FDDD35815B3EE3400A18850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ta_queue_mac;
+			productName = ta_queue_mac;
+			productReference = 5FDDD35A15B3EE3400A18850 /* ta_queue_mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FDDD37A15B3EE3500A18850 /* ta_queue_macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDDD38F15B3EE3500A18850 /* Build configuration list for PBXNativeTarget "ta_queue_macTests" */;
+			buildPhases = (
+				5FDDD37615B3EE3500A18850 /* Sources */,
+				5FDDD37715B3EE3500A18850 /* Frameworks */,
+				5FDDD37815B3EE3500A18850 /* Resources */,
+				5FDDD37915B3EE3500A18850 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FDDD38015B3EE3500A18850 /* PBXTargetDependency */,
+			);
+			name = ta_queue_macTests;
+			productName = ta_queue_macTests;
+			productReference = 5FDDD37B15B3EE3500A18850 /* ta_queue_macTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDDD35115B3EE3400A18850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mysterious Trousers";
+			};
+			buildConfigurationList = 5FDDD35415B3EE3400A18850 /* Build configuration list for PBXProject "ta_queue_mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FDDD34F15B3EE3400A18850;
+			productRefGroup = 5FDDD35B15B3EE3400A18850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDDD35915B3EE3400A18850 /* ta_queue_mac */,
+				5FDDD37A15B3EE3500A18850 /* ta_queue_macTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDDD35815B3EE3400A18850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD36915B3EE3400A18850 /* InfoPlist.strings in Resources */,
+				5FDDD36F15B3EE3400A18850 /* Credits.rtf in Resources */,
+				5FDDD37515B3EE3400A18850 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDDD37815B3EE3500A18850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD38615B3EE3500A18850 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FDDD37915B3EE3500A18850 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDDD35615B3EE3400A18850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD36B15B3EE3400A18850 /* main.m in Sources */,
+				5FDDD37215B3EE3400A18850 /* TAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDDD37615B3EE3500A18850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDDD38915B3EE3500A18850 /* ta_queue_macTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FDDD38015B3EE3500A18850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FDDD35915B3EE3400A18850 /* ta_queue_mac */;
+			targetProxy = 5FDDD37F15B3EE3500A18850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FDDD36715B3EE3400A18850 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDD36815B3EE3400A18850 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FDDD36D15B3EE3400A18850 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDD36E15B3EE3400A18850 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5FDDD37315B3EE3400A18850 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDD37415B3EE3400A18850 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5FDDD38415B3EE3500A18850 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDD38515B3EE3500A18850 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDDD38A15B3EE3500A18850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FDDD38B15B3EE3500A18850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FDDD38D15B3EE3500A18850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ta_queue_mac/ta_queue_mac-Prefix.pch";
+				INFOPLIST_FILE = "ta_queue_mac/ta_queue_mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FDDD38E15B3EE3500A18850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ta_queue_mac/ta_queue_mac-Prefix.pch";
+				INFOPLIST_FILE = "ta_queue_mac/ta_queue_mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FDDD39015B3EE3500A18850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ta_queue_mac.app/Contents/MacOS/ta_queue_mac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ta_queue_mac/ta_queue_mac-Prefix.pch";
+				INFOPLIST_FILE = "ta_queue_macTests/ta_queue_macTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5FDDD39115B3EE3500A18850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ta_queue_mac.app/Contents/MacOS/ta_queue_mac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ta_queue_mac/ta_queue_mac-Prefix.pch";
+				INFOPLIST_FILE = "ta_queue_macTests/ta_queue_macTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDDD35415B3EE3400A18850 /* Build configuration list for PBXProject "ta_queue_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDDD38A15B3EE3500A18850 /* Debug */,
+				5FDDD38B15B3EE3500A18850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDDD38C15B3EE3500A18850 /* Build configuration list for PBXNativeTarget "ta_queue_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDDD38D15B3EE3500A18850 /* Debug */,
+				5FDDD38E15B3EE3500A18850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FDDD38F15B3EE3500A18850 /* Build configuration list for PBXNativeTarget "ta_queue_macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDDD39015B3EE3500A18850 /* Debug */,
+				5FDDD39115B3EE3500A18850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDDD35115B3EE3400A18850 /* Project object */;
+}
