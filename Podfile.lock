@@ -1,0 +1,10 @@
+PODS:
+  - TwUI (0.0.1):
+    - TwUI/Support (= 0.0.1)
+    - TwUI/UIKit (= 0.0.1)
+  - TwUI/Support (0.0.1)
+  - TwUI/UIKit (0.0.1):
+    - TwUI/Support
+
+DEPENDENCIES:
+  - TwUI
